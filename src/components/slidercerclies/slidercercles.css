@@ -1,0 +1,31 @@
+
+.containerSlidercercles {
+    display: flex;
+    flex: 1;
+    border: 2px solid purple;
+    justify-content: end;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    
+}
+
+.stack {
+    margin-right: 10px;
+}
+
+.avatarWrapper {
+    padding: 3.5px; /* ضخامت حاشیه */
+    background: linear-gradient(90deg, rgba(255,106,0,1) 0%, rgba(224,184,71,1) 29%, rgba(255,0,0,1) 100%);
+    border-radius: 50%; 
+    display: inline-flex;
+    cursor: pointer;
+}
+
+
+.avatarContent {
+    background-color: white; /* پس‌زمینه‌ی آواتار */
+    border-radius: 50%; 
+    padding: 3px; /* فضای داخلی دور آواتار */
+}

@@ -1,0 +1,9 @@
+.MainpageContainer{
+    flex: 1;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
