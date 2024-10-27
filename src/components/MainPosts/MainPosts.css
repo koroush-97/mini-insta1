@@ -66,13 +66,10 @@ cursor: pointer;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto;
-    border: 4px solid purple;
 }
 
 
-.main-post-icones{
-    border: 2px solid black;
-}
+
 
 .main-post-icones-components{
     cursor: pointer;
@@ -80,7 +77,6 @@ cursor: pointer;
 }
 
 .main-post-save{
-    border: 2px solid blue;
     display: flex;
     justify-content: end;
 }

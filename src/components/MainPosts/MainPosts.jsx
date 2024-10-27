@@ -40,7 +40,9 @@ export default function MainPosts() {
 
       {/* main-post-transitions */}
 
-      <Box className="main-post-transitions"> transitions - escriptions </Box>
+      <Box className="main-post-transitions"> 
+        
+       </Box>
    
    
       </Box>
