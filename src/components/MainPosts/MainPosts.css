@@ -1,0 +1,82 @@
+
+
+.posts_container {
+   display: flex;/* یا row بستگی به نیاز */
+   /* ظرف والد */
+    flex-direction: column; /* یا row بستگی به نیاز */
+    height: auto; /* برای اندازه‌گیری خودکار */
+    border: 3px solid black;
+}
+
+.banafsh{
+    height: 70px;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    
+}
+
+
+.avata-text{
+    display: grid;
+    grid-template-columns: 70px 70px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 5px;
+}
+
+
+
+
+.sperad-box{
+    display: grid;
+    justify-items: center;
+    padding-bottom: 20px ;
+    align-items: center;
+    grid-template-columns: 70px;
+}
+
+
+.avatar-text-avatar{
+    cursor: pointer;
+}
+
+.sperad-box-span{
+    font-size: xx-large;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.avatar-info{
+    display: grid;
+    grid-template-columns: max-content;
+}
+
+
+
+.sabz{
+    background-color: green;
+}
+
+
+
+.media-pos{
+height: 400px;
+width: 300px;
+}
+
+
+
+
+
+
+
+.red{
+    background-color: red;
+}
+
+.zard{
+    background-color: yellow ;
+} 
