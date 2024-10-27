@@ -21,8 +21,12 @@ export default function MainPosts() {
         media
       </Box>
 
+      <Box className="main-posts-descriptions">text-box</Box>
 
+      <Box className="main-post-transitions"> transitions - escriptions </Box>
       </Box>
+
+
 
     </Box>
   )
