@@ -2,6 +2,10 @@ import React from 'react'
 import './MainPosts.css'
 import { Box } from '@mui/material'
 import Avatar from '@mui/material/Avatar';
+import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
+import BookmarkBorderOutlinedIcon from '@mui/icons-material/BookmarkBorderOutlined';
+import ChatBubbleOutlineOutlinedIcon from '@mui/icons-material/ChatBubbleOutlineOutlined';
+import ShareOutlinedIcon from '@mui/icons-material/ShareOutlined';
 
 export default function MainPosts() {
   return (
@@ -21,13 +25,25 @@ export default function MainPosts() {
         media
       </Box>
 
-      <Box className="main-posts-descriptions">text-box</Box>
+    {/* main-posts-descriptions */ }
 
-      <Box className="main-post-transitions"> transitions - escriptions </Box>
+      <Box className="main-posts-descriptions">
+      <Box className="main-post-icones" >
+        <FavoriteBorderOutlinedIcon className='main-post-icones-components'/>
+        <ChatBubbleOutlineOutlinedIcon className='main-post-icones-components'/>
+        <ShareOutlinedIcon className='main-post-icones-components'/>
+      </Box>
+      <Box className="main-post-save" >
+        <BookmarkBorderOutlinedIcon className='main-post-icones-components'/>
+      </Box>
       </Box>
 
+      {/* main-post-transitions */}
 
-
+      <Box className="main-post-transitions"> transitions - escriptions </Box>
+   
+   
+      </Box>
     </Box>
   )
 }
