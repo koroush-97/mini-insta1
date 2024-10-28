@@ -1,0 +1,16 @@
+.ProfileMain{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 502px;
+}
+
+.person-personality{
+    border: 2px solid purple;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
