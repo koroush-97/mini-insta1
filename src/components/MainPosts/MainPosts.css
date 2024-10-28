@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 381px;
-    border: 5px solid black;
     overflow-y: scroll;
 }
 
@@ -85,7 +84,17 @@ cursor: pointer;
 .main-post-transitions{
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 150px;
-    border: 3px solid yellow;
+    grid-template-rows: auto;
+
 }
 
+.main-post-transitions-Items{
+    display: flex;
+    align-items: start;
+    padding: 5px;
+   
+}
+
+.nagetiveMargin{
+    margin-top: -40px;
+}

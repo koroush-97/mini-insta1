@@ -42,6 +42,16 @@ export default function MainPosts() {
 
       <Box className="main-post-transitions"> 
         
+      <Box className="main-post-transitions-Items">
+        <h4><span>365</span>Likes</h4>
+      </Box>
+      <Box className="main-post-transitions-Items nagetiveMargin ">
+        <h6>descriptions: Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil quibusdam voluptas hic harum. Itaque perspiciatis minus accusantium laborum! Harum culpa deserunt necessitatibus nesciunt illo iure natus dicta aperiam voluptatem dolor!</h6>
+      </Box>
+      <Box className="main-post-transitions-Items nagetiveMargin ">
+        <h5 style={{ color: "gray" }}>view all 65 comments</h5>
+      </Box>
+
        </Box>
    
    
