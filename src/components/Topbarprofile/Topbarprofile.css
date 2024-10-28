@@ -1,0 +1,15 @@
+.Topbarprofile{
+display: grid;
+grid-template-columns: auto auto auto;
+grid-template-rows: 60px;
+}
+
+
+
+.account-name{
+    display: flex; align-items: center; cursor: pointer; margin-left: 30px;
+}
+
+.iconeKeybord{
+    display: flex; align-items: center; cursor: pointer; margin-top: 5px ;
+}

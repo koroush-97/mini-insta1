@@ -1,10 +1,14 @@
 import React from 'react'
 import './Profile.css'
+import { Box } from '@mui/material'
+import Topbarprofile from '../../components/Topbarprofile/Topbarprofile'
 
 export default function Profile() {
   return (
     <div className='Profile-container'>
-      <h1>test for proile</h1>
+      <Box className="profile-container-page">
+        <Topbarprofile />
+      </Box>
     </div>
   )
 }
