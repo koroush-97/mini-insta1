@@ -22,7 +22,7 @@ export default function MainPosts() {
       </Box>
 
       <Box className="posts-media">
-        media
+        
       </Box>
 
     {/* main-posts-descriptions */ }
