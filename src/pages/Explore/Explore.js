@@ -2,6 +2,9 @@ import React from 'react'
 import './Explore.css'
 import { Box, Divider } from '@mui/material'
 import Searchexplore from '../../components/searchexplore/Searchexplore'
+import ExplorePostes from '../../components/ExplorePostes/ExplorePostes'
+
+
 export default function Explore() {
   return (
     <div className='Explore-main-container'>
@@ -9,27 +12,7 @@ export default function Explore() {
       <Divider sx={{ borderWidth: "2px" }} />
       <Box className='explore-posts-container'>
 
-
-      <Box className='gridPostes' ></Box>
-      <Box className='gridPostes' ></Box>
-      <Box className='gridPostes' ></Box>
-      <Box className='gridPostes' ></Box>
-      <Box className='gridPostes' ></Box>
-      <Box className='gridPostes' ></Box>
-      <Box className='gridPostes' ></Box>
-      <Box className='gridPostes' ></Box>
-      <Box className='gridPostes' ></Box> 
-      
-    
-      <Box className='gridPostes-2' ></Box>
-      <Box className='gridPostes-2' ></Box>
-      <Box className='gridPostes-2' ></Box>
-      <Box className='gridPostes-2' ></Box>
-      <Box className='gridPostes-2' ></Box>
-      <Box className='gridPostes-2' ></Box>
-      <Box className='gridPostes-2' ></Box>
-      <Box className='gridPostes-2' ></Box>
-      <Box className='gridPostes-2' ></Box> 
+      <ExplorePostes />
       
     </Box>
     </div>

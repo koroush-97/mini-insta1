@@ -8,13 +8,10 @@
 
 .explore-posts-container {
     max-height: 490px; 
+    min-height: 488px;
     overflow-y: scroll;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1px;
 }
 
-.gridPostes, .gridPostes-2 {
- border: 2px solid gray;
-    height: 150px; 
-}
