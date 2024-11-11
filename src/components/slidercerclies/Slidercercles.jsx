@@ -11,7 +11,7 @@ export default function Slidercercles() {
       <Stack direction="row" spacing={1} className='stack'>
         <Box sx={{ display : 'flex', flexDirection: "column"  , alignItems: "center" , justifyContent: "center" }}>
         <Box className="avatarWrapper">
-        <div class="avatarContent">
+        <div className="avatarContent">
           <Avatar alt="images" src="" />
           </div>
         </Box>
@@ -20,7 +20,7 @@ export default function Slidercercles() {
        
         <Box sx={{ display : 'flex', flexDirection: "column"  , alignItems: "center" , justifyContent: "center" }}>
         <Box className="avatarWrapper">
-        <div class="avatarContent">
+        <div className="avatarContent">
           <Avatar alt="images" src="" />
           </div>
         </Box>
@@ -29,7 +29,7 @@ export default function Slidercercles() {
        
         <Box sx={{ display : 'flex', flexDirection: "column"  , alignItems: "center" , justifyContent: "center" }}>
         <Box className="avatarWrapper">
-        <div class="avatarContent">
+        <div className="avatarContent">
           <Avatar alt="images" src="" />
           </div>
         </Box>
@@ -38,7 +38,7 @@ export default function Slidercercles() {
        
         <Box sx={{ display : 'flex', flexDirection: "column"  , alignItems: "center" , justifyContent: "center" }}>
         <Box className="avatarWrapper">
-        <div class="avatarContent">
+        <div className="avatarContent">
           <Avatar alt="images" src="" />
           </div>
         </Box>

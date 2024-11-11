@@ -6,7 +6,6 @@ import Botombar from './components/Botombar/Botombar';
 import { Divider } from '@mui/material';
 
 export default function App() {
-  // تغییر نام متغیر به routesList
   let routesList = useRoutes(routes);
 
   return (
@@ -15,7 +14,7 @@ export default function App() {
 
 
     <div className='container'>
-      {routesList} {/* نمایش مستقیم routesList */}
+      {routesList} 
       <Divider sx={{ borderWidth: "2px" }} />
       <Botombar />
     </div>

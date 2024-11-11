@@ -42,12 +42,19 @@ justify-content: space-around;
 
 }
 
-.avatarinfo-avatar{
+.avatarinfo-avatar {
     cursor: pointer;
+    width: 50px;
+    /*اندازهآواتار*/height: 50px;
+    /*اندازهآواتار*/object-fit: cover;
+    /*جلوگیریازکشآمدنتصویر*/border-radius: 50%;
+    
 }
+  
 
 .avatar-info-p{
 cursor: pointer;
+text-wrap: nowrap;
 }
 
 /* post media css */
