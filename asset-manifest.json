@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mini-insta1/static/css/main.8edf98a1.css",
+    "main.js": "/mini-insta1/static/js/main.c171432e.js",
+    "static/media/Screenshot_28-10-2024_185137_.jpeg": "/mini-insta1/static/media/Screenshot_28-10-2024_185137_.fe1279e3a1c4005ce652.jpeg",
+    "index.html": "/mini-insta1/index.html",
+    "main.8edf98a1.css.map": "/mini-insta1/static/css/main.8edf98a1.css.map",
+    "main.c171432e.js.map": "/mini-insta1/static/js/main.c171432e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8edf98a1.css",
+    "static/js/main.c171432e.js"
+  ]
+}
