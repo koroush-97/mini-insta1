@@ -1,12 +1,16 @@
-.posts_container{
+
+
+.posts_container {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 381px;
     overflow-y: scroll;
+    max-height: 600px; /* ارتفاع دلخواه برای محدود کردن اسکرول */
 }
 
+
 .box-final-height{
-   height: auto;
+     max-height: 600px; 
 }
 
 .avatar-info-spred-box{
